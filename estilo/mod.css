@@ -3,9 +3,9 @@
         :root {
             --secondary-color: #E6833E;
             --text-color: white;
-            --background-image: url(/img/imagem.png);
-            --background-image2: url(/img/botlaranja.svg);
-           --content: url('/img/roda.svg');
+            --background-image: url(img/imagem.png);
+            --background-image2: url(img/botlaranja.svg);
+           --content: url('img/roda.svg');
           --text-color2:black;
 
 
