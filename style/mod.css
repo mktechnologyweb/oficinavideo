@@ -3,9 +3,9 @@
         :root {
             --secondary-color: #E6833E;
             --text-color: white;
-            --background-image: url(/img/imagem.png);
-            --background-image2: url(/img/botlaranja.svg);
-           --content: url('/img/roda.svg');
+            --background-image: url(img/imagem.png);
+            --background-image2: url(img/botlaranja.svg);
+           --content: url('img/roda.svg');
           --text-color2:black;
 
 
@@ -19,11 +19,11 @@
             --text-color: #070707;
             --background-color: #f6f6f6;
             --heading-color: #818cab;
-            --background-image: url(/img/oficina2.png);
+            --background-image: url(img/oficina2.png);
             --background: white;
-            --background-image2: url(/img/botblack.svg);
+            --background-image2: url(img/botblack.svg);
          
-            --content: url('/img/rodablack.svg');
+            --content: url('img/rodablack.svg');
         }
         
         /* Adding css variable in our webpage */
