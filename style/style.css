@@ -7,7 +7,7 @@
 }
 
 .image {
-    content: url('../img/roda.svg');
+    content: url('.../img/roda.svg');
   }
 
 .oficina {
