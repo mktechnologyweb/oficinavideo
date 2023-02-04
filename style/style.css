@@ -7,7 +7,7 @@
 }
 
 .image {
-    content: url('./img/roda.svg');
+    content: url('roda.svg');
   }
 
 .oficina {
@@ -52,7 +52,7 @@
 
 .btn-personalizadohero {
 
-    background-image: url(/img/bot.svg);
+    background-image: url(bot.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 250;
@@ -62,7 +62,7 @@
 
 .btn-personalizadohero:hover {
 
-    background-image: url(/img/botlaranja.svg);
+    background-image: url(botlaranja.svg);
 
     background-repeat: no-repeat;
     background-size: 100%;
@@ -138,7 +138,7 @@ margin: 50px;
 
 .img1 {
  
-    background-image: url(/img/of1.png);
+    background-image: url(of1.png);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -154,7 +154,7 @@ color: white;
 
 
 .img2 {
-    background-image: url(/img/of2.png);
+    background-image: url(of2.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -162,7 +162,7 @@ color: white;
 }
 
 .img3 {
-    background-image: url(img/of3.png);
+    background-image: url(of3.png);
     background-repeat: no-repeat;
     background-position: center;
    
@@ -220,9 +220,9 @@ color: white;
         :root {
             --secondary-color: #E6833E;
             --text-color: white;
-            --background-image: url(/img/imagem.png);
-            --background-image2: url(/img/botlaranja.svg);
-           --content: url('/img/roda.svg');
+            --background-image: url(/imagem.png);
+            --background-image2: url(botlaranja.svg);
+           --content: url('roda.svg');
           --text-color2:black;
 
 
@@ -236,11 +236,11 @@ color: white;
             --text-color: #070707;
             --background-color: #f6f6f6;
             --heading-color: #818cab;
-            --background-image: url(/img/oficina2.png);
+            --background-image: url(oficina2.png);
             --background: white;
-            --background-image2: url(/img/botblack.svg);
+            --background-image2: url(botblack.svg);
          
-            --content: url('/img/rodablack.svg');
+            --content: url('rodablack.svg');
         }
         
         /* Adding css variable in our webpage */
