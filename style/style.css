@@ -213,5 +213,160 @@ color: white;
 
 
 
+/* dark light */
 
+		/* Default light theme */
+      
+        :root {
+            --secondary-color: #E6833E;
+            --text-color: white;
+            --background-image: url(/img/imagem.png);
+            --background-image2: url(/img/botlaranja.svg);
+           --content: url('/img/roda.svg');
+          --text-color2:black;
+
+
+
+           
+        }
+        /* Dark theme */
+        [theme="dark"] {
+            --primary-color: rgb(249, 246, 246);
+            --secondary-color: black;
+            --text-color: #070707;
+            --background-color: #f6f6f6;
+            --heading-color: #818cab;
+            --background-image: url(/img/oficina2.png);
+            --background: white;
+            --background-image2: url(/img/botblack.svg);
+         
+            --content: url('/img/rodablack.svg');
+        }
+        
+        /* Adding css variable in our webpage */
+        body {
+            background-color: var(--background-color);
+            
+        }
+        
+        .global {
+            color: var(--secondary-color);
+        }
+        
+        
+
+        .roote{
+            color: var(--text-color)!important;
+
+        }
+        
+        .oficina{
+
+            background-image: var(--background-image);
+        }
+
+
+        @media(max-width:720px) {
+
+            .oficina {
+        
+                background-image: var(--background-image);
+           
+        
+        
+            }
+           
+            .dark-mode{
+
+                color: var(--text-color)!important;
+            } 
+        
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        .btn-personalizadohero:hover {
+
+            background-image: var(--background-image2);
+        }
+
+.image{
+    content: var(--content);
+}
+        
+        .containerpersonalizado {
+
+            background: var(--background);
+        }
+
+       
+
+
+        .theme-slider {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+        }
+        
+        .theme-slider input {
+            display: none;
+        }
+        
+        .slider {
+            background-color: #0000;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .4s;
+        }
+        
+        .slider:before {
+            background-color: #fff;
+            bottom: 4px;
+            content: "";
+            height: 26px;
+            left: 4px;
+            position: absolute;
+            transition: .4s;
+            width: 26px;
+        }
+        
+        input:checked+.slider {
+            background-color: rgb(174, 174, 174);
+            
+        }
+        
+        input:checked+.slider:before {
+            transform: translateX(26px);
+        }
+        
+        .slider.round {
+            border-radius: 34px;
+        }
+        
+        .slider.round:before {
+            border-radius: 50%;
+        }
 
