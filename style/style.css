@@ -138,7 +138,7 @@ margin: 50px;
 
 .img1 {
  
-    background-image: url(img/of1.png);
+    background-image: url(/img/of1.png);
     background-repeat: no-repeat;
     background-position: center;
     
