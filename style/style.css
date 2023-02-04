@@ -162,7 +162,7 @@ color: white;
 }
 
 .img3 {
-    background-image: url(of3.png);
+    background-image: url(o;
     background-repeat: no-repeat;
     background-position: center;
    
@@ -220,7 +220,7 @@ color: white;
         :root {
             --secondary-color: #E6833E;
             --text-color: white;
-            --background-image: url(/imagem.png);
+            --background-image: url(imagem.png);
             --background-image2: url(botlaranja.svg);
            --content: url('roda.svg');
           --text-color2:black;
